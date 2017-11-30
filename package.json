@@ -1,0 +1,32 @@
+{
+  "name": "node-selenium",
+  "version": "1.0.0",
+  "description": "this is for testing the node with selenium for cross browser testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikmunsu/node-js-selenium-testing.git"
+  },
+  "keywords": [
+    "{node",
+    "selenium",
+    "browser",
+    "testing}"
+  ],
+  "author": "{name: karthik, email: karthikmunsu@gmail.com}",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikmunsu/node-js-selenium-testing/issues"
+  },
+  "homepage": "https://github.com/karthikmunsu/node-js-selenium-testing#readme",
+  "dependencies": {
+    "chromedriver": "^2.33.2",
+    "express": "^4.16.2",
+    "geckodriver": "^1.10.0",
+    "selenium-webdriver": "^3.6.0",
+    "testingbot-api": "^1.0.5"
+  }
+}
